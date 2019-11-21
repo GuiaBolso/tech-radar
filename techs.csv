@@ -1,0 +1,10 @@
+tech;category;level;month-year;scope;obs
+Kotlin;language;adopt;11/2019;backend;Linguagem padrão
+Kotlintest;framework;trial;11/2019;backend;
+Python;language;trial;11/2019;backend;MVP
+Typescript;language;trial;11/2019;frontend;Front
+Javascript;language;adopt;11/2019;frontend;Front
+Protocolo de Eventos;data;adopt;11/2019;backend;
+Ryzen;infra;adopt;11/2019;backend;
+Clean architecture;infra;adopt;11/2019;backend;
+AWS KMS;infra;adopt;11/2019;backend;
