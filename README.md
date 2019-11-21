@@ -2,6 +2,9 @@
 
 O Tech Radar do Guiabolso é uma lista de tecnologias utilizadas pelas equipes do Guiabolso, separadas por anéis que indicam nosso nível de confiança em tecnologia. Esta lista é atualizada trimestralmente.
 
+## Acesso
+
+Para acessar o nosso radar, acesse [este link](https://guiabolso.github.io/tech-radar/)
 
 #### Atribuições
 
