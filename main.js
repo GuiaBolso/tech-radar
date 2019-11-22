@@ -33,7 +33,7 @@ async function generateEntries(data) {
     .filter(d => !!d[0])
     .reduce((acc, curr) => (
         [...acc, {
-            label:  `${curr[0]} ${(curr[5]) ? "- " + curr[5]: ""}`,
+            label:  `${curr[0]}`,
             quadrant: QUADRANT[curr[1]],
             ring: RING[curr[2]],
             active: true,
