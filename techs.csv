@@ -1,10 +1,23 @@
-tech;category;level;month-year;scope;obs
-Kotlin;language;adopt;11/2019;backend;Linguagem padrão
-Kotlintest;framework;trial;11/2019;backend;
-Python;language;trial;11/2019;backend;MVP
-Typescript;language;trial;11/2019;frontend;Front
-Javascript;language;adopt;11/2019;frontend;Front
-Protocolo de Eventos;data;adopt;11/2019;backend;
-Ryzen;infra;adopt;11/2019;backend;
-Clean architecture;infra;adopt;11/2019;backend;
-AWS KMS;infra;adopt;11/2019;backend;
+tech,category,level,month-year,scope,obs
+Kotlin,language,adopt,11/2019,backend,Linguagem padrão
+Kotlintest,framework,trial,11/2019,backend,
+Python,language,trial,11/2019,backend,MVP
+Typescript,language,trial,11/2019,frontend,Front
+Javascript,language,adopt,11/2019,frontend,Front
+Protocolo de Eventos,data,adopt,11/2019,backend,
+Ryzen,infra,adopt,11/2019,backend,
+Clean architecture,infra,adopt,11/2019,backend,
+AWS KMS,infra,adopt,11/2019,backend,
+Redis,data,hold,11/2019,backend,Custo muito alto
+Spring Boot,framework,adopt,11/2019,backend,
+Micronaut,framework,assess,11/2019,backend,
+Spotinst,infra,adopt,11/2019,backend,
+Ktor,framework,assess,11/2019,backend,
+Docker-Compose,infra,assess,11/2019,backend,
+Mockk,framework,trial,11/2019,backend,"Muito usado na comunidade, pouco no guiabolso"
+Arrow,framework,assess,11/2019,backend,
+Newman,framework,assess,11/2019,backend,
+Datadog,data,adopt,11/2019,backend,
+DynamoDB,data,hold,11/2019,backend,Não é um banco pra substituir relacional; muita dor de cabeça pra crud
+Appsync,infra,assess,11/2019,backend,
+Kotlinscript,framework,hold,11/2019,backend,Não tem boa manutenção na comunidade

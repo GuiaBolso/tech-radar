@@ -7,7 +7,7 @@ const QUADRANT = {
 
 const RING = {
     hold: 3,
-    asses: 2,
+    assess: 2,
     trial: 1,
     adopt: 0
 };
