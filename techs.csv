@@ -1,23 +1,49 @@
-tech;category;level;month-year;scope;obs
-Kotlin;language;adopt;11/2019;backend;Linguagem padrão
-Kotlintest;framework;trial;11/2019;backend;
-Python;language;trial;11/2019;backend;MVP
-Typescript;language;trial;11/2019;frontend;Front
-Javascript;language;adopt;11/2019;frontend;Front
-Protocolo de Eventos;data;adopt;11/2019;backend;
-Ryzen;infra;adopt;11/2019;backend;
-Clean architecture;infra;adopt;11/2019;backend;
-AWS KMS;infra;adopt;11/2019;backend;
-Redis;data;hold;11/2019;backend;Custo muito alto
-Spring Boot;framework;adopt;11/2019;backend;
-Micronaut;framework;assess;11/2019;backend;
-Spotinst;infra;adopt;11/2019;backend;
-Ktor;framework;assess;11/2019;backend;
-Docker-Compose;infra;assess;11/2019;backend;
-Mockk;framework;trial;11/2019;backend;Muito usado na comunidade pouco no guiabolso
-Arrow;framework;assess;11/2019;backend;
-Newman;framework;assess;11/2019;backend;
-Datadog;data;adopt;11/2019;backend;
-DynamoDB;data;hold;11/2019;backend;Não é um banco pra substituir relacional Muita dor de cabeça pra crud
-Appsync;infra;assess;11/2019;backend;
-Kotlinscript;framework;hold;11/2019;backend;Não tem boa manutenção na comunidade
+tech;category;level;month-year;change
+Kotlin;language;adopt;11/2019;0
+Kotest;framework;trial;11/2019;0
+Python (Lambda);language;adopt;11/2019;1
+Protocolo de Eventos;tools;adopt;11/2019;0
+Redis;infra;adopt;11/2019;1
+Spring Context;framework;adopt;11/2019;0
+Spotinst;infra;adopt;11/2019;0
+Ktor;framework;trial;03/2020;1
+Docker-Compose;infra;assess;11/2019;0
+Mockk;framework;trial;11/2019;0
+Arrow;framework;assess;11/2019;0
+Datadog;tools;adopt;11/2019;0
+DynamoDB;infra;adopt;03/2020;1
+Appsync;infra;assess;11/2019;0
+Kotlinscript;framework;hold;11/2019;0
+Mockito;framework;adopt;03/2020;0
+Pippo;framework;adopt;03/2020;0
+Grails;framework;hold;03/2020;0
+OkHttp;framework;adopt;03/2020;0
+Retrofit;framework;adopt;03/2020;0
+Koin;framework;assess;03/2020;0
+Exposed;framework;assess;03/2020;0
+Spring JPA;framework;adopt;03/2020;0
+JDBI;framework;adopt;03/2020;0
+Groovy;language;hold;03/2020;0
+Java;language;hold;03/2020;0
+Scala;language;hold;03/2020;0
+Go;language;hold;03/2020;0
+TypeScript(lambda);language;adopt;03/2020;1
+KotlinJS;language;assess;03/2020;0
+ELK;tools;adopt;03/2020;0
+Ktlint;tools;adopt;03/2020;0
+Detekt;tools;trial;03/2020;0
+JSLint;tools;adopt;03/2020;0
+RunScope;tools;adopt;03/2020;0
+Pitest;tools;trial;03/2020;0
+Clean architecture;tools;adopt;03/2020;0
+OpsGenie;tools;adopt;03/2020;0
+Jmeter;tools;adopt;03/2020;0
+Gradle;tools;adopt;03/2020;0
+Maven;tools;hold;03/2020;0
+Jenkins;tools;adopt;03/2020;0
+Terraform;infra;trial;03/2020;0
+AWS;infra;adopt;03/2020;0
+SAM;infra;assess;03/2020;0
+GraphQL;tools;hold;03/2020;0
+Postgres;infra;adopt;03/2020;0
+MySQL;infra;adopt;03/2020;0

@@ -1,7 +1,7 @@
 const QUADRANT = {
     framework: 2,
     language: 0,
-    data: 3,
+    tools: 3,
     infra: 1,
 };
 
@@ -37,7 +37,7 @@ async function generateEntries(data) {
             quadrant: QUADRANT[curr[1]],
             ring: RING[curr[2]],
             active: true,
-            moved: 0
+            moved: curr[4]
         }]
     ),[])
 }
@@ -56,7 +56,7 @@ function renderChart(entries) {
         quadrants: [
           { name: "Linguagens" },
           { name: "Infraestrutura" },
-          { name: "Frameworks" },
+          { name: "Frameworks e Bibliotecas" },
           { name: "Gerenciamento de Dados" }
         ],
         rings: [
