@@ -56,7 +56,7 @@ function renderChart(entries) {
         quadrants: [
           { name: "Linguagens" },
           { name: "Infraestrutura" },
-          { name: "Frameworks e Bibliotecas" },
+          { name: "Técnicas e Ferramentas" },
           { name: "Gerenciamento de Dados" }
         ],
         rings: [
