@@ -56,8 +56,8 @@ function renderChart(entries) {
         quadrants: [
           { name: "Linguagens" },
           { name: "Infraestrutura" },
-          { name: "Técnicas e Ferramentas" },
-          { name: "Gerenciamento de Dados" }
+          { name: "Frameworks e Bibliotecas" },
+          { name: "Técnicas e Ferramentas" }
         ],
         rings: [
           { name: "ADOPT", color: "#93c47d" },
