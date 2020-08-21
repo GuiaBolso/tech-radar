@@ -57,7 +57,7 @@ function renderChart(entries) {
           { name: "Linguagens" },
           { name: "Infraestrutura" },
           { name: "Frameworks e Bibliotecas" },
-          { name: "Gerenciamento de Dados" }
+          { name: "Técnicas e Ferramentas" }
         ],
         rings: [
           { name: "ADOPT", color: "#93c47d" },
