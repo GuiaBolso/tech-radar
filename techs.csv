@@ -12,7 +12,7 @@ Mockk;framework;trial;11/2019;0
 Arrow;framework;assess;11/2019;0
 Datadog;tools;adopt;11/2019;0
 DynamoDB;infra;adopt;03/2020;0
-Appsync;infra;hoild;07/2020;-1
+Appsync;infra;hold;07/2020;-1
 KotlinX Serialization;framework;assess;03/2020;1
 Kotlinscript;framework;hold;11/2019;0
 Mockito;framework;adopt;03/2020;0
