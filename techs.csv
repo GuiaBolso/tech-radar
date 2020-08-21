@@ -6,7 +6,7 @@ Protocolo de Eventos;tools;adopt;11/2019;0
 Redis;infra;adopt;11/2019;0
 Spring Context;framework;adopt;11/2019;0
 Spotinst;infra;adopt;11/2019;0
-Ktor;framework;Adopt;07/2020;1
+Ktor;framework;adopt;07/2020;1
 Docker-Compose;infra;assess;11/2019;0
 Mockk;framework;trial;11/2019;0
 Arrow;framework;assess;11/2019;0
