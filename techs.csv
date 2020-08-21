@@ -1,49 +1,60 @@
-tech;category;level;month-year;change
-Kotlin;language;adopt;11/2019;0
-Kotest;framework;trial;11/2019;0
-Python (Lambda);language;adopt;11/2019;1
-Protocolo de Eventos;tools;adopt;11/2019;0
-Redis;infra;adopt;11/2019;1
-Spring Context;framework;adopt;11/2019;0
-Spotinst;infra;adopt;11/2019;0
-Ktor;framework;trial;03/2020;1
-Docker-Compose;infra;assess;11/2019;0
-Mockk;framework;trial;11/2019;0
-Arrow;framework;assess;11/2019;0
-Datadog;tools;adopt;11/2019;0
-DynamoDB;infra;adopt;03/2020;1
-Appsync;infra;assess;11/2019;0
-Kotlinscript;framework;hold;11/2019;0
-Mockito;framework;adopt;03/2020;0
-Pippo;framework;adopt;03/2020;0
-Grails;framework;hold;03/2020;0
-OkHttp;framework;adopt;03/2020;0
-Retrofit;framework;adopt;03/2020;0
-Koin;framework;assess;03/2020;0
-Exposed;framework;assess;03/2020;0
-Spring JPA;framework;adopt;03/2020;0
-JDBI;framework;adopt;03/2020;0
-Groovy;language;hold;03/2020;0
-Java;language;hold;03/2020;0
-Scala;language;hold;03/2020;0
-Go;language;hold;03/2020;0
-TypeScript(lambda);language;adopt;03/2020;1
-KotlinJS;language;assess;03/2020;0
-ELK;tools;adopt;03/2020;0
-Ktlint;tools;adopt;03/2020;0
-Detekt;tools;trial;03/2020;0
-JSLint;tools;adopt;03/2020;0
-RunScope;tools;adopt;03/2020;0
-Pitest;tools;trial;03/2020;0
-Clean architecture;tools;adopt;03/2020;0
-OpsGenie;tools;adopt;03/2020;0
-Jmeter;tools;adopt;03/2020;0
-Gradle;tools;adopt;03/2020;0
-Maven;tools;hold;03/2020;0
-Jenkins;tools;adopt;03/2020;0
-Terraform;infra;trial;03/2020;0
-AWS;infra;adopt;03/2020;0
-SAM;infra;assess;03/2020;0
-GraphQL;tools;hold;03/2020;0
-Postgres;infra;adopt;03/2020;0
-MySQL;infra;adopt;03/2020;0
+tech,category,level,month-year,change
+Kotlin,language,adopt,11/2019,0
+Kotest,framework,trial,11/2019,0
+Python (Lambda),language,adopt,11/2019,0
+Protocolo de Eventos,tools,adopt,11/2019,0
+Redis,infra,adopt,11/2019,0
+Spring Context,framework,adopt,11/2019,0
+Spotinst,infra,adopt,11/2019,0
+Ktor,framework,Adopt,07/2020,1
+Docker-Compose,infra,assess,11/2019,0
+Mockk,framework,trial,11/2019,0
+Arrow,framework,assess,11/2019,0
+Datadog,tools,adopt,11/2019,0
+DynamoDB,infra,adopt,03/2020,0
+Appsync,infra,hoild,07/2020,-1
+KotlinX Serialization,framework,assess,03/2020,1
+Kotlinscript,framework,hold,11/2019,0
+Mockito,framework,adopt,03/2020,0
+Pippo,framework,adopt,03/2020,0
+Grails,framework,hold,03/2020,0
+Fuel,framework,adopt,07/2020,1
+Caffeine,framework,adopt,07/2020,1
+Coroutines,framework,trial,07/2020,1
+Guava,framework,hold,07/2020,-1
+OkHttp,framework,hold,07/2020,-1
+Retrofit,framework,adopt,03/2020,0
+Koin,framework,trial,07/2020,1
+Exposed,framework,hold,07/2020,-1
+Spring JPA,framework,adopt,03/2020,0
+JDBI,framework,adopt,03/2020,0
+Groovy,language,hold,03/2020,0
+Java,language,hold,03/2020,0
+Scala,language,hold,03/2020,0
+Go,language,hold,03/2020,0
+TypeScript(lambda),language,adopt,03/2020,0
+KotlinJS,language,assess,03/2020,0
+ELK,tools,adopt,03/2020,0
+Ktlint,tools,adopt,03/2020,0
+Detekt,tools,adopt,07/2020,1
+JSLint,tools,adopt,03/2020,0
+RunScope,tools,adopt,03/2020,0
+Pitest,tools,trial,03/2020,0
+Clean architecture,tools,adopt,03/2020,0
+OpsGenie,tools,adopt,03/2020,0
+Jmeter,tools,adopt,03/2020,0
+Gradle,tools,adopt,03/2020,0
+Maven,tools,hold,03/2020,0
+Jenkins,tools,adopt,03/2020,0
+Terraform,infra,adopt,07/2020,1
+AWS,infra,adopt,03/2020,0
+SAM,infra,adopt,07/2020,1
+GraphQL,tools,hold,03/2020,0
+Postgres,infra,adopt,03/2020,0
+MySQL,infra,adopt,03/2020,0
+Kubernetes,infra,trial,07/2020,1
+Sonarqube,tools,trial,07/2020,1
+Gitlab CI,tools,trial,07/2020,1
+Gitlab Registry,tools,trial,07/2020,1
+Github Actions,tools,assess,07/2020,1
+Jprofiler,tools,adopt,07/2020,1
