@@ -1,53 +1,113 @@
 <html>
-
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>Guiabolso Tech Radar</title>
-<link rel="shortcut icon" href="https://www.guiabolso.com.br/assets/images/favicon.png">
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="radar.js"></script>
-
-<link rel="stylesheet" href="radar.css">
-</head>
-
-<body>
-
-<svg id="radar"></svg>
-
-<script src="main.js"></script>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Guiabolso | Backend Tech Radar</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.guiabolso.com.br/assets/images/favicon.png"
+    />
+    <link rel='stylesheet' id='main-font'  href='https://fonts.googleapis.com/css?family=Open Sans:400,400i,500,500i,600,700,700i' type='text/css' media='all' /><link rel='stylesheet' id='font-title'  href='https://fonts.googleapis.com/css?family=Open Sans:400,400i,500,500i,600,700,700i' type='text/css' media='all' /><script type='text/javascript' src='/wp-content/themes/wp-guia-bolso/assets/js/scripts.js?ver=0.2.3'></script>
 
 
-<table>
-<tr>
-<td>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="radar.js"></script>
 
-<h3>O que é o Tech Radar?</h3>
+    <link rel="stylesheet" href="radar.css" />
+  </head>
 
-<p>
-  O Tech Radar do Guiabolso é uma lista de tecnologias utilizadas pelas equipes do Guiabolso, separadas por anéis que indicam nosso nível de confiança em tecnologia. Esta lista é atualizada trimestralmente.
+  <body>
+    <header>
+      <img
+        src="https://www.guiabolso.com.br/wp-content/uploads/2020/04/logo.png"
+        alt="Logo do Guiabolso"
+      />
+    </header>
 
-  Separamos as tecnologias em quatro anéis, que possuem a seguinte semântica:
-</p>
+    <main>
+        <svg id="radar"></svg>
+    </main>
 
-<ul>
-<li><strong>ADOPT</strong> &mdash; Tecnologias que possuímos confiança e que estão sendo usadas em ambiente de produção. Além disso, são tecnologias que vários membros do Guiabolso possuem conhecimento e podem auxiliar em seu uso.</li>
-<li><strong>TRIAL</strong> &mdash; Tecnologias que possuímos alguma confiança, mas que possuem um pouco a mais de risco do que Adopt. Foram usadas em alguns projetos, mas ainda estão sendo acompanhadas por poucos desenvolvedores e desenvolvedoras que possuem conhecimento.</li>
-<li><strong>ASSESS</strong> &mdash; Tecnologias que possuem potencial de agregar valor em nossa stack de tecnologia, no entanto ainda estão em nível de baixa adoção. Poucos ou nenhum projeto em produção as utiliza, e pouquíssimos devs conhecem e advogam em sua defesa.</li>
-<li><strong>HOLD</strong> &mdash; Tecnologias que não recomendamos para novos projetos. Acreditamos que ainda não estão prontas para nosso uso, ou seu uso se provou problemático para os times que experimentaram. Num geral são tecnologias desencorajadas para novos projetos.</li>
-</ul>
+    <script src="main.js"></script>
 
-</td><td>
+    <table>
+      <tr>
+        <td>
+          <h3>O que é o Tech Radar?</h3>
 
-<h3>Qual o objetivo?</h3>
+          <p>
+            O Tech Radar do Guiabolso é uma lista de tecnologias utilizadas
+            pelas equipes do Guiabolso, separadas por anéis que indicam nosso
+            nível de confiança em tecnologia. Esta lista é atualizada
+            trimestralmente. Separamos as tecnologias em quatro anéis, que
+            possuem a seguinte semântica:
+          </p>
 
-<p>
-  O Tech Radar é uma ferramenta para dar suporte às equipes de desenvolvimento no Guiabolso. Possui o objetivo de facilitar a criação de novos projetos onde não temos plena certeza de quais tecnologias deverão ser usadas e queremos um compilado melhor do que está sendo usado pela empresa e com quem conversar sobre. Além disso, temos bem documentado a stack de tecnologia que está em nosso radar para potenciais novos Guias acompanharem e se interessarem.
-</p>
+          <ul>
+            <li>
+              <strong>ADOPT</strong> &mdash; Tecnologias que possuímos confiança
+              e que estão sendo usadas em ambiente de produção. Além disso, são
+              tecnologias que vários membros do Guiabolso possuem conhecimento e
+              podem auxiliar em seu uso.
+            </li>
+            <li>
+              <strong>TRIAL</strong> &mdash; Tecnologias que possuímos alguma
+              confiança, mas que possuem um pouco a mais de risco do que Adopt.
+              Foram usadas em alguns projetos, mas ainda estão sendo
+              acompanhadas por poucos desenvolvedores e desenvolvedoras que
+              possuem conhecimento.
+            </li>
+            <li>
+              <strong>ASSESS</strong> &mdash; Tecnologias que possuem potencial
+              de agregar valor em nossa stack de tecnologia, no entanto ainda
+              estão em nível de baixa adoção. Poucos ou nenhum projeto em
+              produção as utiliza, e pouquíssimos devs conhecem e advogam em sua
+              defesa.
+            </li>
+            <li>
+              <strong>HOLD</strong> &mdash; Tecnologias que não recomendamos
+              para novos projetos. Acreditamos que ainda não estão prontas para
+              nosso uso, ou seu uso se provou problemático para os times que
+              experimentaram. Num geral são tecnologias desencorajadas para
+              novos projetos.
+            </li>
+          </ul>
+        </td>
+        <td>
+          <h3>Qual o objetivo?</h3>
 
-</td></tr>
-</table>
-
-</body>
-<footer>Originalmente criado por Zalando, sob licença MIT - <a href="https://github.com/zalando/tech-radar">Repositório no Github</a></footer>
+          <p>
+            O Tech Radar é uma ferramenta para dar suporte às equipes de
+            desenvolvimento no Guiabolso. Possui o objetivo de facilitar a
+            criação de novos projetos onde não temos plena certeza de quais
+            tecnologias deverão ser usadas e queremos um compilado melhor do que
+            está sendo usado pela empresa e com quem conversar sobre. Além
+            disso, temos bem documentado a stack de tecnologia que está em nosso
+            radar para potenciais novos Guias acompanharem e se interessarem.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+  <footer>
+    <p>
+      <img src="https://www.guiabolso.com.br/wp-content/uploads/2020/04/logo_blue.png" alt="Logo do Guiabolso">
+    </p>
+    <p>
+      <ul>
+        <li>Links interessantes:</li>
+        <li><a href="https://jobs.kenoby.com/guiabolso">Vagas no Guiabolso</a></li>
+        <li><a href="https://www.guiabolso.com.br">Site do Guiabolso</a></li>
+        <li><a href="https://github.com/Guiabolso">Github do Guiabolso</a></li>
+      </ul>
+    </p>
+    <p>
+        Matido e atualizado por <strong>Guiabolso</strong>, sob licença MIT -
+        <a href="https://github.com/Guiabolso/tech-radar">Repositório no Github</a>
+    </p> 
+    <br/>
+    <p>
+        Originalmente criado por <strong>Zalando</strong>, sob licença MIT -
+        <a href="https://github.com/zalando/tech-radar">Repositório no Github</a>
+    </p> 
+  </footer>
 </html>
