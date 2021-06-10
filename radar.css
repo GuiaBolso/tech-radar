@@ -1,6 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
 body {
-  font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
-  padding-bottom: 50px;
+  font-family: "Open Sans", arial, helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  margin: 2em;
 }
 h3 {
   margin-top: 50px;
@@ -9,8 +21,9 @@ li {
   margin: 25px 50px 0 0;
 }
 table {
-  width: 1400px;
-  margin: 0 50px 0 50px;
+  width: 100%;
+  padding: 0 50px 0 50px;
+  background: #f2fcfe;
 }
 td {
   width: 50%;
@@ -19,5 +32,23 @@ td {
 }
 
 footer {
-    text-align: center
+  background: #250048;
+  color: white;
+  padding: 2em 1em;
+}
+footer a {
+  color: #00d1ee;
+  font-weight: bolder;
+}
+footer li {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+footer ul {
+  padding: 2em 0;
+}
+
+table td {
+  padding: 1em;
 }
