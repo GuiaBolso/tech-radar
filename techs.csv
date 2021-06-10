@@ -8,6 +8,7 @@ Spring Context;framework;adopt;11/2019;0
 Spotinst;infra;adopt;11/2019;0
 Ktor;framework;adopt;07/2020;1
 Docker-Compose;infra;assess;11/2019;0
+Airflow;infra;assess;06/2021;1
 Mockk;framework;trial;11/2019;0
 Arrow;framework;assess;11/2019;0
 Datadog;tools;adopt;11/2019;0
@@ -48,7 +49,8 @@ Maven;tools;hold;03/2020;0
 Jenkins;tools;adopt;03/2020;0
 Terraform;infra;adopt;07/2020;1
 AWS;infra;adopt;03/2020;0
-SAM;infra;adopt;07/2020;1
+AWS Lambda;infra;hold;06/2021/-1
+SAM;infra;adopt;06/2021;-1
 GraphQL;tools;hold;03/2020;0
 Postgres;infra;adopt;03/2020;0
 MySQL;infra;adopt;03/2020;0
